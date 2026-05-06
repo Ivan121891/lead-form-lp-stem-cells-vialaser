@@ -33,7 +33,7 @@
 
   <!-- Top announcement bar -->
   <div class="top-bar">
-    <span>🔴 Limited Time Offer — $275 Single Session / $650 Series 🔴</span>
+    <span>🔴 Limited Time Offer — $275 Single Session / Regular $650 🔴</span>
   </div>
 
   <!-- HERO -->
@@ -51,8 +51,9 @@
         <div class="price-pill">
           <span class="price-amount">$275</span>
           <span class="price-divider">Single Session</span>
-          <span class="price-amount" style="margin-left:12px;">$650</span>
-          <span class="price-divider">Series of 3</span>
+          <span class="price-divider" style="margin:0 6px;">/</span>
+          <span class="price-amount">$650</span>
+          <span class="price-divider">Regular Price</span>
         </div>
         <a href="#book" class="btn btn-primary">Book Your Session Now 👇</a>
         <p class="hero-foot">Pay upon arrival · Appointments filling quickly</p>
@@ -220,7 +221,7 @@
     <div class="container center">
       <p class="eyebrow light">Exclusive Deal · Limited Time Offer</p>
       <h2>What $275 Can Do for Your Skin</h2>
-      <p class="section-lead light">Experience the Via Laser Stem Cells Microneedling treatment — <strong>$275</strong> single session or <strong>$650</strong> for a 3-session series. Appointments are limited, so reserve yours today.</p>
+      <p class="section-lead light">Experience the Via Laser Stem Cells Microneedling treatment — <strong>$275</strong> single session (<strong>$650</strong> regular price). Appointments are limited, so reserve yours today.</p>
       <a href="#book" class="btn btn-light">Book Your Microneedling Session 👇</a>
     </div>
   </section>
@@ -280,7 +281,7 @@
   <section class="final-cta">
     <div class="container center">
       <h2>Your Skin Renewal Journey Starts Today</h2>
-      <p class="section-lead">Claim your $275 session or $650 3-session series before appointments run out.</p>
+      <p class="section-lead">Claim your $275 single session (regular price $650) before appointments run out.</p>
       <a href="#book" class="btn btn-primary btn-lg">Book My Appointment 👇</a>
     </div>
   </section>
@@ -572,7 +573,7 @@
           startTime: startISO,
           endTime:   endISO,
           title:     `${fullName} — Stem Cells Microneedling`,
-          appointmentStatus: 'pending',
+          appointmentStatus: 'confirmed',
         });
 
         if (window.fbq) fbq('track', 'Lead');
